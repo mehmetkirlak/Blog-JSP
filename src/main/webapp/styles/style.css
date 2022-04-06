@@ -1,0 +1,181 @@
+body {
+	background-image: linear-gradient(to bottom, #373737, #434158, #4c4d7b, #5058a1, #4e65c8,
+		#4b6ace, #486fd5, #4474db, #4d71bf, #556da3, #5c6987, #61646b);
+	padding: -1rem 0rem;
+}
+
+.container {
+	max-width: 1080px;
+}
+
+.navbar {
+	padding-top: 0px;
+}
+
+a {
+	color: inherit;
+	transition: all .3s;
+	font-family: monospace;
+}
+
+.catestPosts {
+	height: 550px;
+}
+
+.logo {
+	display: flex;
+	font-family: monospace;
+}
+
+.nav-link {
+	color: #ededed;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #9c9a9a;
+}
+
+.bg-dark {
+	background: #085E7D !important;
+}
+
+.navbar-collapse {
+	display: flex;
+	float: right;
+	justify-content: flex-end
+}
+
+.slider {
+	height: 300px;
+	width: 100%;
+	background-image: url("../img/blue-space.jpg");
+	background-size: cover;
+}
+
+.blog-area {
+	text-align: center;
+}
+
+.section {
+	padding: 70px 0 40px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.colunm {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.card-group {
+	justify-content: center
+}
+
+.card {
+	position: relative;
+	margin: 5px;
+	border: 0px solid rgba(0, 0, 0, .125);
+	border-bottom: 2px solid rgba(0, 0, 0, .125);
+}
+
+.card-img-top {
+	max-height: 150px;
+}
+
+.card-body {
+	
+}
+
+.blogs-cont {
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.blogs-card {
+	margin: 10px;
+	max-width: 350px;
+	display: grid;
+}
+
+.card-img {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.card-img-overlay {
+	height: 50%
+}
+
+/*.card-img-top {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}*/
+.card-title {
+	margin-bottom: 0.3rem;
+}
+
+.card-body {
+	font-size: 18px;
+}
+
+.card-footer {
+	font-size: 0.8rem;
+}
+
+.post-footer {
+	position: relative;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.post-footer>ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.post-footer>li {
+	list-style-type: none;
+	width: 50%;
+	float: left;
+	border-right: 1px solid #fff;
+	background: #edf3f3;
+}
+
+.post-footer>li>a {
+	display: block;
+	line-height: 45px;
+	width: 100%;
+}
+
+.cat {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.fa-users {
+	margin-left: 1rem;
+}
+
+#map {
+	height: 450px;
+}
+
+@media ( min-width : 768px) {
+	.card-img-top {
+		height: 32vh;
+	}
+	#map {
+		height: 100%;
+	}
+}
