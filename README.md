@@ -1,4 +1,4 @@
-# Blogkirlak
+# Blog-JSP
  
 This is a Blog website that using JSP and Servlet. It also uses Database for storing the blogs. Java codes in JSP's stands for blog page navigation and applying the blog to blogs page. 
 
